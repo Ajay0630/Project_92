@@ -1,0 +1,25 @@
+body
+{
+	background: linear-gradient(lightblue, lightgreen, cornsilk);
+}
+.login
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#play1name , #play2name
+{
+	display: inline-block;
+}
+#output{
+	background :white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h4 id="nick1"></h4>&nbsp;<span id="nick1score"></span>
+	<h4 id="nick2"></h4>&nbsp;<span id="nick2score"></span>
+<div class="container">
+	<center>
+		<h2>Time for a Math Quiz!</h2>
+		<h3 id="questionplay">It is no one's turn for question</h3>
+		<h3 id="answerplay">It is no one's turn for answer</h3>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+        <h4>Number 1</h4>
+		<input type="number" id="num1input" class="form-control" placeholder="Number 1 goes here.">
+		<br>
+        <h4>Number 2</h4>
+        <input type="number" id="num2input" class="form-control" placeholder="Number 2 goes here.">
+        <br>
+		<button class="btn btn-danger" onclick="send()" width="1000">Send</button>
+	</center>
+</div>
+
+<script src="mathquizOOF.js"></script>
+</body>
+</html>
